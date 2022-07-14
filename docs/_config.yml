@@ -29,9 +29,8 @@ url: https://stephen-witkowski.com  # the base hostname and protocol for your si
 baseurl: /stephenwitkowski.github.io/      # place folder name if the site is served in a subfolder
 
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
-  - jekyll-feed
   - jekyll-include-cache
 
 # Exclude from processing.
@@ -53,3 +52,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
